@@ -1,0 +1,264 @@
+<style>
+/* MOBILE FIRST */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+    /* margin-top: 25px;
+    padding: 25px; */
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.p_1 {
+    font-size: x-large;
+    text-align:justify;
+    padding: 25px;
+}
+
+.img-center {
+   display: flex;
+   justify-content: center;
+}
+
+.containerTitleTest {
+    background-color: #F2A405;
+    width: 100%;
+}
+
+.contFather {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color:F4F4F4;
+    align-items: center;
+}
+
+.transitionExample:hover {
+    background-color: gray;
+    font-size: xx-large;
+    width: 120;
+}
+
+.containerTest {
+    display: grid;
+    width: 250px;
+    margin: 30px;
+    padding: 15px;
+    background-color: #f2c56f;
+    outline: 2px solid orange;
+    border-radius: 50px;
+}
+
+.t-center {
+    text-align:center;
+}
+
+.t-justify {
+    text-align: justify;
+}
+
+.t-style {
+    color: white;
+    text-decoration: none;
+    font-size:large;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+}
+
+.img-small {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorFooter {
+    background-color: white;
+    padding:15px;
+    margin: 20px;
+    text-align: center;
+    font-weight:lighter;
+    line-height: 1;
+    outline: 2px solid black;
+    border-radius: 20px;
+    
+}    
+
+.orangeBackground {
+        background-image: linear-gradient(to right, orange, #F4F4F4);
+        width: 100;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-weight: bold;
+        padding-right:30px;
+        padding-left:30px;
+}
+
+.radiusFooter{
+    height: 200;
+    width: 400;
+    outline: 1px solid #EDA632;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.boton {
+    color:blue;
+}
+
+ol li {
+    text-align: justify;
+    font-size: larger;
+    font-weight: lighter;
+    padding: 5px;
+    margin: 10px;
+}
+
+.contenedorReglamento {
+    margin: 10px;
+    background-color: white;
+    padding:5px;
+    outline: 2px solid orange;
+    border-radius:20px;
+
+}
+
+.w100 {
+width:100;
+
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 10px;
+    background-color:F4F4F4;
+    align-items: center;
+}
+
+.videoContainer {
+    width: 280px;
+    height: auto;
+}
+
+.imgContainer {
+    width: 280px;
+    height: auto;
+}
+
+.littleMargin {
+    margin: 30px;
+}
+
+.littlePadTop {
+    padding-top: 15px;
+}
+
+.elementsCenter {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+/* TABLET */
+@media (min-width: 600px) {
+
+.imgContainer {
+    width: 420px;
+    height: auto;
+}
+
+
+    .contFather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color:F4F4F4;
+    align-items: center;
+}
+
+
+
+/* DESKTOP */
+@media (min-width: 1028px) {
+
+.firstArticle {
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top:50px;
+    margin:0;
+}
+
+.anotherArticle {
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top:15px;
+    text-align: justify;
+}
+
+.contenedorFooter {
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+
+.shortMargin {
+    margin-left:300px;
+    margin-right:300px;
+}
+
+.contFather {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color:F4F4F4;
+    align-items: center;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:F4F4F4;
+    justify-content: space-around;
+    text-align: justify;
+
+}
+.videoContainer {
+    width: 500px;
+    height: 280px;
+}
+
+.imgContainer {
+    width: 480px;
+    height: auto;
+}
+}
+
+</style>
